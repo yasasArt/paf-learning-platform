@@ -1,5 +1,7 @@
+// HomePage.js
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
+import HomeSection from '../HomeSection/HomeSection'; // Ensure this path is correct
 
 const HomePage = () => {
   return (
@@ -11,7 +13,7 @@ const HomePage = () => {
 
       {/* Middle Section */}
       <div className="w-full lg:w-[50%]">
-        <p className="text-center">Middle part</p>
+        <HomeSection />
       </div>
 
       {/* Right Section */}
